@@ -14,7 +14,7 @@ public class LoginTest {
 	
 	@Test
 	public void loginTest() {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\shivaprasad.baad\\eclipse-workspace\\com.maven\\drivers");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\shivaprasad.baad\\eclipse-workspace\\com.maven\\drivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.letskodeit.com/");
 		
